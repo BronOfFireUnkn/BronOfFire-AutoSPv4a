@@ -1,0 +1,10 @@
+{"repeatCount":-1,"pauseOnFail":false,"count":11,"minVerCode":2023000,"minVerName":"2.23.0","screenWidth":1920,"screenHeight":1080,"screenDpi":2,"lastSaveScreenWidth":1920,"lastSaveScreenHeight":1080,"lastSaveScreenDpi":2,"savedVerCode":2025000,"savedVerName":"2.25.0","delay":"50","delayUnit":0,"description":""}
+{"type":"控制执行","delayUnit":1,"controlRunType":"setJumpId","jumpToPosition":"","ContinueParentExecute":false,"jumpId":"G"}
+{"type":"打开应用","delayUnit":1,"scriptCallbacks":{"afterExecFail":{"type":"控制执行","delayUnit":1,"controlRunType":"jumpTo","jumpToPosition":":B","ContinueParentExecute":false}},"closeBeforeOpen":false,"onlyClose":false,"__vars":{"appPackageName":{"varType":"expression","varScope":"script","mustInput":true,"valueExp":"chooseG"}}}
+{"type":"执行脚本","delayUnit":1,"filePath":"1-G-时间判定.zjs"}
+{"type":"控制执行","delayUnit":1,"controlRunType":"setJumpId","jumpToPosition":"","ContinueParentExecute":false,"jumpId":"B"}
+{"type":"打开应用","delayUnit":1,"scriptCallbacks":{"afterExecFail":{"type":"控制执行","delayUnit":1,"controlRunType":"jumpTo","jumpToPosition":":无","ContinueParentExecute":false}},"closeBeforeOpen":false,"onlyClose":false,"__vars":{"appPackageName":{"varType":"expression","varScope":"script","mustInput":true,"valueExp":"chooseB"}}}
+{"type":"执行脚本","delayUnit":1,"filePath":"1-B-时间判定.zjs"}
+{"type":"控制执行","delayUnit":1,"controlRunType":"setJumpId","ContinueParentExecute":false,"jumpId":"无"}
+{"type":"系统提示","delayUnit":1,"promptType":"toast","promptText":"这里没有识别到服务器信息哦，请重试一遍，如果重试仍有问题请记得向我反馈","promptTitle":"","playAudio":"false","useVibrator":false,"showDuration":5000}
+{"type":"执行脚本","delayUnit":1,"filePath":"1-服务器选择.zjs"}
